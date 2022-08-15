@@ -1,0 +1,46 @@
+.employee {
+    border: 2px solid white;
+    width: 125px;
+    padding: 5px;
+    height: 225px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgb(158, 158, 158);
+}
+
+.name {
+    background-color:rgb(158, 158, 158);
+    font-weight: bold;
+}
+
+.role {
+    background-color:rgb(158, 158, 158);
+}
+
+.counter {
+    border: 2px solid white;
+    margin: 5px;
+    background-color: grey;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    background-color: grey;
+}
+
+.decrement {
+    border: 2px solid white;
+}
+
+.increment {
+    border: 2px solid white;
+}
+
+.count {
+    font-size: 18px;
+    background-color: rgb(128, 128, 128);
+    font-weight: bold;
+}

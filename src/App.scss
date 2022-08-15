@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+  border: 2px solid white;
+  width: 90vw;
+  height: 98vh;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-self: center;
+}
+
+* {
+  background-color: #282c34;
+  color: white;
+}
+
+.App-tickets {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  justify-items: center;
+}
+
+
+
+
