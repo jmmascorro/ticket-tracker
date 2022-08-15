@@ -17,9 +17,7 @@ function App() {
         <h1>Ticket Tracker</h1>
       </header>
       <section className="App-tickets">
-
       {mappedTeam}
-
       </section>
     </div>
   );
